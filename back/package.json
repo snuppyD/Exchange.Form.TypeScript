@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "node dist/server.js",
-    "build": "react-scripts build",
+    "build": "npx tsc dist/server.ts",
     "dev": "npx tsc dist/server.js"
   },
   "eslintConfig": {
